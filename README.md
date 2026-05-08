@@ -1,9 +1,9 @@
 # GO Project – QA Report
 
 ## 📌 Overview
-This repository contains QA work performed for the GO project. It includes requirements evaluation and defect reporting to ensure better understanding of requirement quality and potential issues in the system.
+This repository contains QA work performed for the GO project. It includes requirements evaluation, defect reporting, and overall quality assessment to better understand requirement quality and system issues.
 
-The repository combines both requirements analysis and real defect data exported from Jira to support practical QA documentation.
+The repository combines requirements analysis, Jira-based defect data, and a QA quality report to demonstrate practical QA documentation skills.
 
 ---
 
@@ -11,6 +11,7 @@ The repository combines both requirements analysis and real defect data exported
 - Analyze project requirements for clarity, completeness, and consistency  
 - Identify gaps, ambiguities, and inconsistencies  
 - Support QA findings with real defect tracking data  
+- Evaluate overall project quality from a QA perspective  
 - Practice structured QA documentation  
 
 ---
@@ -20,6 +21,7 @@ The repository combines both requirements analysis and real defect data exported
 - Identification of inconsistencies and missing details  
 - Validation of requirement clarity from a tester’s perspective  
 - Defect reporting using Jira  
+- Overall quality evaluation of the system  
 
 ---
 
@@ -27,6 +29,7 @@ The repository combines both requirements analysis and real defect data exported
 - Manual Requirements Analysis  
 - Jira (Bug Tracking & CSV Export)  
 - Screenshot-based evidence collection  
+- QA reporting techniques  
 
 ---
 
@@ -37,15 +40,18 @@ The repository combines both requirements analysis and real defect data exported
 - Jira Bug Export (CSV)  
   → Raw defect data exported directly from Jira, including summaries, descriptions, and severity information  
 
+- Quality Report (PDF)  
+  → Overall QA summary of the project, including testing coverage, findings, and quality evaluation  
+
 ---
 
 ## 📌 Key Notes
 - Work is based on provided project requirements  
 - Original requirement documents are not included due to confidentiality  
 - Jira export is included in its original form without modification  
-- This repository demonstrates practical QA skills in requirements analysis and defect reporting  
+- This repository demonstrates practical QA skills in requirements analysis, defect reporting, and quality assessment  
 
 ---
 
 ## 🚀 Outcome
-This exercise helped improve skills in analyzing software requirements, identifying inconsistencies, and linking requirements with real-world defect tracking using Jira.
+This exercise improved skills in analyzing software requirements, identifying inconsistencies, reporting defects using Jira, and preparing structured QA quality documentation.
