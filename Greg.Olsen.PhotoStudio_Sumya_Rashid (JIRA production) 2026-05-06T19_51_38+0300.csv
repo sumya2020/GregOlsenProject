@@ -1,0 +1,604 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Labels,Description,Environment,Watchers,Log Work,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Custom field ((backup) Browser/s),Custom field ((backup) Exists in the current implementation?),Custom field ((backup) External issue ID - old),Custom field ((backup) Integrator),Custom field ((backup) Issue Occurred On),Custom field ((backup) Issue Status Comment),Custom field ((backup) Platform),Custom field ((backup) Root of the problem),Custom field ((backup) Test Type),Custom field ((backup) Test case priority),Custom field ((backup) Type of Issue),Custom field ((backup) Work Type),"Custom field ((backup, del) Test tasks)","Custom field ((tmp, del) Build/s)","Custom field ((tmp, del?) TestCase Link)",Custom field (Account),Custom field (Actual Result),Custom field (Affected Test Cases),Custom field (Affects Build/s),Custom field (Asana link),Custom field (BT Jira ID),Custom field (BT Project),Custom field (Basecamp Link),Custom field (Billable Category),Custom field (Browser),Custom field (Browser / Environment),Custom field (Browser Version),Custom field (Build/s),Custom field (Business Unit),Custom field (CQ ID),Custom field (CS Project Coordinator),Custom field (Case Study necessity postpone date),Custom field (Client Device),Custom field (Client Device Version),Custom field (Cloud Version),Custom field (Core issue),Custom field (Created By),Custom field (Development),Custom field (End Date),Custom field (Epic Link),Custom field (Epic/Theme),Custom field (Error Type),Custom field (Expected Result),Custom field (Flagged),Custom field (Found by),Custom field (Functionality Changes?),Custom field (Handled By (SGW Tester)),Custom field (Hardware Version),Custom field (Impact),Custom field (Impacted Areas),Custom field (Importance),Custom field (Iteration),Custom field (Level),Custom field (New Original Estimate),Custom field (Next Step),Custom field (Number of candidates),Custom field (Occurrence),Custom field (Original story points),Custom field (Parent Link),Custom field (Partner Contact),Custom field (Payment Status),Custom field (Planned Efforts (FTE)),Custom field (Priority Level),Custom field (Proxy Required),Custom field (RFX Coordinator),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Regional Coordinator),Custom field (Related Cases),Custom field (Reported Version),Custom field (Request Info From),Custom field (Revised),Custom field (Router),Custom field (SF Case No),Custom field (SGW Jira ID),Custom field (Severity/Importance),Custom field (Share with),Custom field (Solution),Sprint,Custom field (Start Date),Custom field (Supervisor),Custom field (TVS ID),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Team Role),Custom field (Test Type),Custom field (TestLink case),Custom field (Time Category),Custom field (To Attention Of),Custom field (Type of engagement),Custom field (URL),Custom field (Users),Custom field (Version To Fix),Custom field (WSJF),Custom field (Wiki Link),Custom field (Wires Link),Custom field (ZendeskID),Custom field (Обеспечение оборудованием),Comment
+Book Session: Photo is displayed on the left side of the page,QATC-989969,3990747,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,FAD,,s.rashid,s.rashid,30/Apr/26 8:24 AM,30/Apr/26 11:23 AM,06/May/26 7:51 PM,30/Apr/26 11:23 AM,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Select on ""Session"" menu
+ # Click ""Book now"" for Mini Studio session
+ # Observe  the picture location
+
+Actual Result: Photo is displayed on the left side of the page.Please see [^bug45.png],[^req45.png]
+
+Expected Result: Photo should be displayed first as per requirement.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 8:24 AM;s.rashid;bug45.png;https://jira.a1qa.com/secure/attachment/2780178/bug45.png","30/Apr/26 8:24 AM;s.rashid;req45.png;https://jira.a1qa.com/secure/attachment/2780177/req45.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9ug:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Book Session: The prices show 250 USD instead of 650 USD on Standard session,QATC-989962,3990739,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 8:13 AM,30/Apr/26 8:13 AM,05/May/26 5:59 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Click on ""Session"" menu
+ # Select ""Book now"" for Standard Session
+ # Observe the prices
+
+Actual Result: The prices show 250 USD instead of 650 USD on Book session page.Please see [^bug44.mp4]
+
+Expected Result: The price should be 650 USD for Standard Session.
+ 
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+ ",,,,,,,,,,Leads and Reporter only,"30/Apr/26 8:08 AM;s.rashid;bug44.mp4;https://jira.a1qa.com/secure/attachment/2780167/bug44.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9so:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+"Book Information: Page Title is ""Book Session"" instead of ""Book Information""",QATC-989951,3990727,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,FAD,,s.rashid,s.rashid,30/Apr/26 7:58 AM,04/May/26 7:38 AM,05/May/26 5:58 AM,04/May/26 7:38 AM,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Click on ""Session"" menu
+ # Select ""None"" for Additional Subjects
+ # Click ""Book"" button on Mini studio Session
+ # Observe the page title
+
+Actual Result: .Page Title is ""Book Session"" instead of ""Book Information"". Please see [^bug43.png]
+
+Expected Result: Page title should be ""Book Information"".
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 7:57 AM;s.rashid;bug43.png;https://jira.a1qa.com/secure/attachment/2780154/bug43.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9q0:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Book Info:  Phone field is set as text type,QATC-989941,3990717,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 7:44 AM,30/Apr/26 7:44 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Session"" menu
+ # Select ""None"" for additional subject
+ # Click ""Book"" button on Misi Studio session
+ # Open inspect
+ # Observe the type of Phone 
+
+Actual Result: Phone field is set as text type. Please see [^bug42.png],[^bug42.mp4]
+
+Expected result: Phone field should be numeric type.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 7:43 AM;s.rashid;bug42.mp4;https://jira.a1qa.com/secure/attachment/2780140/bug42.mp4","30/Apr/26 7:42 AM;s.rashid;bug42.png;https://jira.a1qa.com/secure/attachment/2780141/bug42.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9ns:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Book Info: “Save this information for next time ” button is not clickable,QATC-989933,3990709,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 7:35 AM,30/Apr/26 7:35 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Session"" menu
+ # Select ""None"" on Additional subjects
+ # Click ""Book"" button on Ministudio Session
+ # Fill the form
+ # Click Saving info button.
+
+Actual Result: Save this information for next time ” button is not clickable. Please see [^bug41.mp4]
+
+Expected Result: ""Save this information for next time” button should be clickable and allow saving the information.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 7:34 AM;s.rashid;bug41.mp4;https://jira.a1qa.com/secure/attachment/2780131/bug41.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9m0:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+"Book Info: ""Keep me up to date on news"" checkbox is selected by default",QATC-989928,3990704,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 7:24 AM,30/Apr/26 7:24 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Session"" menu
+ # Select ""None"" on additional subject
+ # Click ""Book"" button on Mini Studio Session
+ # Observe The checkbox
+
+Actual Result: ""Keep me up to date on news"" checkbox is selected by default.Please see [^bug40.png],[^bug40.mp4]
+
+Expected Result: “Keep it up” checkbox should be unselected by default
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 7:24 AM;s.rashid;bug40.mp4;https://jira.a1qa.com/secure/attachment/2780125/bug40.mp4","30/Apr/26 7:23 AM;s.rashid;bug40.png;https://jira.a1qa.com/secure/attachment/2780126/bug40.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9kw:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Book Info: Email field  allows maximum length of 10 characters instead of 100,QATC-989923,3990699,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 7:11 AM,30/Apr/26 7:11 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Session"" menu
+ # Select ""None"" for additional subject
+ # Click ""Book"" button on Misi Studio session
+ # Open inspect
+ # Observe the length of email
+
+Actual Result: Email field  allows maximum length of 10 characters instead of 100 .Please see [^bug39.png]
+
+Expected Result: Email field should allow maximum length of 100 characters as per requirement.
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 7:11 AM;s.rashid;bug39.png;https://jira.a1qa.com/secure/attachment/2780120/bug39.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9js:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Clients: Clients without links are clickable and reload the page,QATC-989914,3990690,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 6:57 AM,30/Apr/26 6:57 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Clients"" Page
+ # Click on the image of ""Ashley & Rich Baccari""
+ # Observe the changes
+
+Actual Result:  Clients without links are clickable and reload the page. Please see [^bug38.mp4]
+
+Expected Result: Clients without links should not be clickable
+ 
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 6:56 AM;s.rashid;bug38.mp4;https://jira.a1qa.com/secure/attachment/2780111/bug38.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9hs:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Contact: Search button shape on the contact page is different from other pages.,QATC-989910,3990686,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 6:47 AM,30/Apr/26 6:47 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Contact"" Page
+ # Observe the ""Search"" button.
+
+Actual Result:.Search button shape on the contact page is different from other pages. Please see [^bug37.png],[^req37.png]
+
+Expected Result: Search button shape should be same as buttons used on other pages
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 6:45 AM;s.rashid;bug37.png;https://jira.a1qa.com/secure/attachment/2780107/bug37.png","30/Apr/26 6:47 AM;s.rashid;req37.png;https://jira.a1qa.com/secure/attachment/2780106/req37.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9gw:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Contact: Validation is shown only for the last name field,QATC-989905,3990681,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 6:36 AM,30/Apr/26 6:36 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Contact"" Page
+ # Fill subject field
+ # fill the message from
+ # click the ""Send  message"" button
+ # Observe the changes
+
+Actual Result: Validation is shown only for the last name field.Please see [^bug36.mp4]
+
+Expected Result: Validation should be shown for all empty required fields or start from the first field","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 6:36 AM;s.rashid;bug36.mp4;https://jira.a1qa.com/secure/attachment/2780101/bug36.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9fs:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Contact: System displays default validation message instead of custom text,QATC-989898,3990674,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 6:26 AM,30/Apr/26 6:26 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Contact"" Page
+ # Fill the form except message
+ # Click send message button
+ # Observe the popup shown in message
+
+Actual Result: System displays default validation message instead of custom text. Please see [^bug35.png]
+
+Expected Result: System should display the customized validation message “Please leave a message for me”
+ 
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 6:26 AM;s.rashid;bug35.png;https://jira.a1qa.com/secure/attachment/2780092/bug35.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9e8:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+contact: Footer is not displayed on the contact page,QATC-989894,3990670,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,30/Apr/26 6:19 AM,30/Apr/26 6:19 AM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Contact"" Page
+ # Observe the Footer of the page
+
+Actual Result: Footer is not displayed on the contact page .Please see [^bug34.png]
+
+Expected Result: Footer should be visible on the contact page as per design.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"30/Apr/26 6:18 AM;s.rashid;bug34.png;https://jira.a1qa.com/secure/attachment/2780088/bug34.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu9dc:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Portrait: Blank search redirects to the home page,QATC-989615,3990321,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 7:22 PM,29/Apr/26 7:22 PM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Work"" submenu
+ # Click the ""Portrait"" Page
+ # Click the ""Search"" button without any data
+ # Observe the changes
+
+Actual Result: Blank search redirects to the home page. Please see [^bug35.mp4]
+
+Expected Result: It should show a validation message without redirecting to home page.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+ ",,,,,,,,,,Leads and Reporter only,"29/Apr/26 7:21 PM;s.rashid;bug35.mp4;https://jira.a1qa.com/secure/attachment/2779735/bug35.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu78o:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Search: Blank search reloads the page without any message,QATC-989608,3990314,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 7:14 PM,29/Apr/26 7:14 PM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Session"" submenu
+ # Click the ""Search"" button without any data
+ # Observe the changes
+
+Actual Result Blank search reloads the page without any message. Please see [^bug34.mp4]
+
+Expected Result: System should show a proper validation message for a blank search
+ 
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 7:14 PM;s.rashid;bug34.mp4;https://jira.a1qa.com/secure/attachment/2779726/bug34.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu774:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+"Book Info: 350 USD is displayed instead of 360 USD, after booking a session",QATC-989599,3990300,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 6:54 PM,29/Apr/26 6:54 PM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Session"" menu
+ # Select 2 Additional Subjects from dropdown menu
+ # Click the ""Book"" button from Mini Studio Session
+ # Observe the booking price.
+
+Actual Result: 350 USD is displayed instead of 360 USD, after booking a session. Please see [^bug32.mp4]
+
+Expected Result: 360 USD should be shown in the booking price after adding 2 subjects costing (55+55) with the session price 250 USD.
+ 
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 6:51 PM;s.rashid;bug32.mp4;https://jira.a1qa.com/secure/attachment/2779713/bug32.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu740:",9223372036854775807,,,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Clients: Client Kong Crossfit link opens in the same tab instead of a new tab,QATC-989576,3990261,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 6:05 PM,29/Apr/26 6:05 PM,05/May/26 5:58 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Connect"" submenu
+ # Click the ""Clients"" Page
+ # Click clientKong Crossfit link
+ # Observe the changes
+
+Actual Result: Client Kong Crossfit link opens in the same tab instead of a new tab. Please see [^bug31.mp4]
+
+Expected Result: All client links should open in a new tab
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 6:04 PM;s.rashid;bug31.mp4;https://jira.a1qa.com/secure/attachment/2779671/bug31.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu6vc:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Clients: Client Max & Tara Axler is not displayed in the expected order,QATC-989559,3990227,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 5:12 PM,29/Apr/26 5:12 PM,05/May/26 5:57 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Connect"" submenu
+ # Click the ""Clients"" Page
+ # Observe the clients list
+
+Actual Result: Client Max & Tara Axler is not displayed in the expected order. Please see [^bug30.png],[^bug30.mp4]
+
+Expected Result: Clients should be displayed in the predefined order as per the requirement.
+Additional Info: Client Alex Ching, Emcor, Leblon, Patricia Leunis are also not in expected order.
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 5:06 PM;s.rashid;bug30.mp4;https://jira.a1qa.com/secure/attachment/2779644/bug30.mp4","29/Apr/26 5:06 PM;s.rashid;bug30.png;https://jira.a1qa.com/secure/attachment/2779645/bug30.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu6ns:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Portrait: Expand option missing for some portrait images,QATC-989549,3990189,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 4:34 PM,29/Apr/26 4:34 PM,05/May/26 5:57 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Work"" submenu
+ # Click the ""Portrait"" Page
+ # Click on different photos
+ # Observe the ""Expand"" option
+
+Actual Result: Expand option missing for some portrait images. Please see [^bug28.mp4]
+
+Expected Result: Expand option should be available for all portrait images
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 4:34 PM;s.rashid;bug28.mp4;https://jira.a1qa.com/secure/attachment/2779619/bug28.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu6fc:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Clients: Space is visible between client images,QATC-989525,3990131,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 3:13 PM,29/Apr/26 3:13 PM,05/May/26 5:57 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Connect"" submenu
+ # Click the ""Clients"" Page
+ # Observe the pictures of the clients.
+
+Actual Result: Space is visible between client images. Please see [^bug27.png],[^req27.png]
+
+Expected Result: No space should be visible between client images as per the requirement","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 3:12 PM;s.rashid;bug27.png;https://jira.a1qa.com/secure/attachment/2779570/bug27.png","29/Apr/26 3:12 PM;s.rashid;req27.png;https://jira.a1qa.com/secure/attachment/2779569/req27.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu62g:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Clients: Lauren Lucia’s profile image is displayed cropped,QATC-989340,3989781,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,FAD,,s.rashid,s.rashid,29/Apr/26 7:12 AM,04/May/26 7:42 AM,05/May/26 5:57 AM,04/May/26 7:42 AM,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Connect"" submenu
+ # Click the ""Clients"" Page
+ # Observe the client's list
+
+Actual Result: Lauren Lucia’s profile image is displayed cropped. Please see [^bug30.png],[^req30.png]
+
+Expected Result: Client profile image should be displayed properly without cropping","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 7:07 AM;s.rashid;bug30.png;https://jira.a1qa.com/secure/attachment/2779169/bug30.png","29/Apr/26 7:07 AM;s.rashid;req30.png;https://jira.a1qa.com/secure/attachment/2779168/req30.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3yg:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Clients: Client “Laser Performance” is not displayed in the client list,QATC-989337,3989778,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 7:01 AM,29/Apr/26 7:01 AM,05/May/26 5:57 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Clients"" Page
+ # Observe the client's list
+
+Actual Result: Client “Laser Performance” is not displayed in the client list.Please see [^bug29.png],[^req29.png],[^bug29.mp4]
+
+Expected Result: Client “Laser Performance” should be displayed in the client list as per the requirement.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 7:01 AM;s.rashid;bug29.mp4;https://jira.a1qa.com/secure/attachment/2779162/bug29.mp4","29/Apr/26 6:59 AM;s.rashid;bug29.png;https://jira.a1qa.com/secure/attachment/2779163/bug29.png","29/Apr/26 6:58 AM;s.rashid;req29.png;https://jira.a1qa.com/secure/attachment/2779164/req29.png",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3xs:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Clients: Client images for Jennifer Harris and Yasmine Ghaemi are swapped,QATC-989333,3989774,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 6:48 AM,29/Apr/26 6:48 AM,05/May/26 5:57 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Connect"" menu
+ # Click the ""Clients"" Page
+ # Scroll down to the clients list
+ # Observe the images 
+
+Actual Result: Client images for Jennifer Harris and Yasmine Ghaemi are swapped. Please see [^bug28.png],[^req27.png],[^req28.png]
+
+Expected Result: Each client name should display its corresponding profile image as per the requirement
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 6:47 AM;s.rashid;bug28.png;https://jira.a1qa.com/secure/attachment/2779155/bug28.png","29/Apr/26 6:48 AM;s.rashid;req27.png;https://jira.a1qa.com/secure/attachment/2779154/req27.png","29/Apr/26 6:48 AM;s.rashid;req28.png;https://jira.a1qa.com/secure/attachment/2779153/req28.png",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3ww:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Portrait: An additional image is displayed in the gallery that is not part of the requirement,QATC-989323,3989764,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 6:08 AM,29/Apr/26 6:08 AM,05/May/26 5:57 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Work"" submenu
+ # Click the ""Portrait"" Page
+ # Observe the 8th picture
+
+Actual Result: An additional image is displayed in the gallery that is not part of the requirement. Please see [^bug25.png],[^req25.png]
+
+Expected Result: Only images defined in the requirement should be displayed in the Portrait Gallery
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 6:08 AM;s.rashid;bug25.png;https://jira.a1qa.com/secure/attachment/2779142/bug25.png","29/Apr/26 6:08 AM;s.rashid;req25.png;https://jira.a1qa.com/secure/attachment/2779141/req25.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3uo:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Portrait: Navigation arrow (left/right) is not displayed for one image in preview mode,QATC-989310,3989751,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 4:34 AM,29/Apr/26 4:34 AM,05/May/26 5:57 AM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Work"" menu
+ # Click the ""Portrait"" Page
+ # Click the first image.
+ # Observe the navigation arrow
+
+Actual Result: The navigation arrow (left/right) is not displayed for one image in preview mode. Please see [^bug24.png]
+
+Expected Result: Navigation arrows should be consistently visible for all images in preview mode","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+ ",,,,,,,,,,Leads and Reporter only,"29/Apr/26 4:31 AM;s.rashid;bug24.mp4;https://jira.a1qa.com/secure/attachment/2779128/bug24.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3rs:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Portrait: Unreadable text like “3.AKpbiTb” is displayed on navigation/close controls,QATC-989304,3989745,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 4:12 AM,29/Apr/26 4:12 AM,05/May/26 11:29 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""work"" menu
+ # Click the ""Portrait"" Page
+ # Click on an image
+ # Observe the close button text
+
+Actual Result: Unreadable text like “3.AKpbiTb” is displayed on navigation/close controls. Please see [^bug22.png]
+
+Expected Result: UI elements ( navigation arrows, close/back button) should be displayed with meaningful labels.
+
+Additional Info: The navigation arrow also contains unreadable text instead of meaningful labels.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+ ",,,,,,,,,,Leads and Reporter only,"29/Apr/26 4:11 AM;s.rashid;bug22.png;https://jira.a1qa.com/secure/attachment/2779122/bug22.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3qg:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Portrait: Tooltip shows “Portrait” on hover over images instead of image number,QATC-989297,3989738,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 3:42 AM,29/Apr/26 3:42 AM,05/May/26 11:27 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Work"" menu
+ # Click the ""Portrait"" Page
+ # Hover on images
+ # Observe the Tooltip
+
+Actual Result: Tooltip shows “Portrait” on hover over images instead of the image number. Please see [^bug20.mp4],[^bug20.png]
+
+Expected Result: Tooltip should show the image number (e.g., p5)","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 3:42 AM;s.rashid;bug20.mp4;https://jira.a1qa.com/secure/attachment/2779114/bug20.mp4","29/Apr/26 3:42 AM;s.rashid;bug20.png;https://jira.a1qa.com/secure/attachment/2779113/bug20.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3ow:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+"Header: Home menu remains highlighted in red, even after navigating to other pages",QATC-989294,3989735,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 3:18 AM,29/Apr/26 3:45 AM,05/May/26 11:23 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Connect"" menu
+ # Click the ""Portrait"" Page
+ # Observe the header section
+
+Actual Result: Home menu remains highlighted in red, even after navigating to other pages. Please see [^bug19.mp4],[^bug19.png]
+
+Expected Result: The selected/active menu should be highlighted in red according to the current page.
+ 
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 3:17 AM;s.rashid;bug19.mp4;https://jira.a1qa.com/secure/attachment/2779109/bug19.mp4","29/Apr/26 3:17 AM;s.rashid;bug19.png;https://jira.a1qa.com/secure/attachment/2779108/bug19.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3o8:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,"29/Apr/26 3:45 AM;s.rashid;Header: Home menu remains highlighted in red, even after navigating to other pages
+ Priority: Major
+
+Affects Version/s:1.0
+
+Component/s:
+GregOlsen.PhotoStudio
+
+Environment:
+OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+Severity/Importance:3-Average
+Error Type:GUI
+Description
+Steps:
+
+Go to https://photostudio.demohoster.com/
+Hover on the ""work"" menu
+Click the ""Portrait"" Page
+Observe the header section
+Actual Result: Home menu remains highlighted in red, even after navigating to other pages. Please see bug19.mp4,bug19.png
+
+Expected Result: The selected/active menu should be highlighted in red according to the current page.;;;"
+Home: Contact number is displayed as ending with 2068 instead of 2086,QATC-989281,3989719,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,29/Apr/26 2:51 AM,29/Apr/26 2:51 AM,05/May/26 11:21 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Scroll till the last of the ""Home"" page
+ # Observe the footer section.
+
+Actual Result: The contact number is displayed as ending with 2068 instead of 2086. Please see [^req18.png],[^bug18.png]
+
+Expected Result: The contact number should end with 2086 as per the requirement.
+ 
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 2:51 AM;s.rashid;bug18.png;https://jira.a1qa.com/secure/attachment/2779090/bug18.png","29/Apr/26 2:51 AM;s.rashid;req18.png;https://jira.a1qa.com/secure/attachment/2779091/req18.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu3ko:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Philanthropy: Alexandra Frida testimonial quotes are not displayed on the page,QATC-989069,3989272,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,28/Apr/26 11:15 AM,28/Apr/26 11:15 AM,05/May/26 11:20 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Click on the ""Connect"" menu
+ # Click the ""Philanthropy"" Page
+ # Scroll till the last of the page
+ # Observe the text
+
+Actual Result: Alexandra Frida's testimonial quotes are not displayed on the page. Please see [^bug17.png],[^Req17.png]
+
+Expected Result: The page should display Alexandra Frida's testimonial quotes as per the requirement.
+
+Additional Info: The page should display Cluse Watches testimonial quotes as per the requirement.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"28/Apr/26 11:15 AM;s.rashid;bug17.png;https://jira.a1qa.com/secure/attachment/2778695/bug17.png","28/Apr/26 11:15 AM;s.rashid;Req17.png;https://jira.a1qa.com/secure/attachment/2778694/Req17.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu0uw:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Header: Session menu item is displayed before Connect in the header,QATC-989060,3989250,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,28/Apr/26 10:26 AM,28/Apr/26 10:26 AM,05/May/26 11:14 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Observe the header section.
+
+Actual Result: The session menu item is displayed before Connect in the header. Please see [^bug3.png]
+
+Expected Result: Session menu item should be displayed after Connect as per requirement.
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"28/Apr/26 10:25 AM;s.rashid;bug16.png;https://jira.a1qa.com/secure/attachment/2778676/bug16.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu0q0:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Search: Search bar does not respond to input,QATC-989040,3989219,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,28/Apr/26 8:45 AM,28/Apr/26 8:45 AM,05/May/26 11:11 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ #  
+ # Click the ""Search"" button
+ # Write ""Portrait"" in the search bar
+ # Click the search option
+ # Observe the result
+
+Actual Result: Search bar does not respond to input. Please see [^bug15.mp4]
+
+Expected Result: Search bar should respond and display relevant results or feedback.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+ ",,,,,,,,,,Leads and Reporter only,"28/Apr/26 8:45 AM;s.rashid;bug15.mp4;https://jira.a1qa.com/secure/attachment/2778639/bug15.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifu0j4:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Portrait: Image no 29 is displayed in place of 30 no image,QATC-988993,3988998,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 9:03 PM,27/Apr/26 9:03 PM,05/May/26 11:06 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Click on ""work"" submenu
+ # Click the ""Portrait"" Page
+ # Scroll down till the last
+ # Click on Page 3
+ # Observe the pictures
+
+Actual Result: Image no 29 is displayed in place of 30 no image.Please see [^Req14.png],[^bug14.png]
+
+Expected Result: Image no 29 and 30 should be displayed as per requirement.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 8:58 PM;s.rashid;bug14.png;https://jira.a1qa.com/secure/attachment/2778578/bug14.png","27/Apr/26 8:58 PM;s.rashid;Req14.png;https://jira.a1qa.com/secure/attachment/2778579/Req14.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|iftz60:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Portrait: Clicking ''Next'' from Page 3 redirects to Page 2 instead of page 4,QATC-988992,3988997,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 8:49 PM,27/Apr/26 8:49 PM,05/May/26 11:03 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Click on ""Work"" Submenu
+ # Click the ""Portrait"" Page
+ # Scroll till the last of the page
+ # Click the ""Next"" button
+ # Observe the changes in pages
+
+Actual Result: Clicking Next from Page 3 redirects to Page 2.Please see [^bug13.mp4]
+
+Expected Result: Clicking Next from Page 3 should navigate to Page 4
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+ ",,,,,,,,,,Leads and Reporter only,"27/Apr/26 8:46 PM;s.rashid;bug13.mp4;https://jira.a1qa.com/secure/attachment/2778577/bug13.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftz5s:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Sessions: Book Information and Payment pages are not available under Sessions menu,QATC-988991,3988986,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,FAD,,s.rashid,s.rashid,27/Apr/26 8:16 PM,04/May/26 7:46 AM,05/May/26 11:03 PM,04/May/26 7:46 AM,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Click on ""Sessions"" menu
+ # Scroll the page
+ # Observe the page
+
+Actual Result: Book Information and Payment pages are not available under Sessions menu. Please see [^bug12.mp4]
+
+Expected Result: Sessions menu should contain Book Information and Payment pages as per requirement.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"29/Apr/26 6:41 PM;s.rashid;bug12-1.mp4;https://jira.a1qa.com/secure/attachment/2779704/bug12-1.mp4","27/Apr/26 8:11 PM;s.rashid;bug12.mp4;https://jira.a1qa.com/secure/attachment/2778576/bug12.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftz3c:",9223372036854775807,,,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,,,0.0,,,,,"29/Apr/26 6:40 PM;s.rashid;Sessions: Payment Option is showing an error page
+ Type: Bug
+Priority: Major
+Fix Version/s:None
+Affects Version/s:1.0
+Component/s:GregOlsen.PhotoStudio
+Environment:
+OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+Severity:1-Critical
+Error Type: Functional
+Description
+Steps:
+
+1.Go to https://photostudio.demohoster.com/
+2.Click on the ""Sessions"" menu
+3.Click the ""Book"" button
+4.Fill book informations
+5.Click the ""Continue to Payment method"" button
+6.Observe the page
+
+Actual Result: Payment Option is showing an error page. Please see bug12.mp4
+
+Expected Result: The Payment option should work as per the requirement.;;;"
+Contact: Session menu is not visible in the Contact page header,QATC-988987,3988976,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 7:52 PM,27/Apr/26 7:52 PM,05/May/26 11:00 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Contact"" Page
+ # Observe the header section
+
+Actual Result: Session menu is not visible in the Contact page header.Please see [^bug11.png]
+
+Expected Result: Session menu should be visible in the Contact page header
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+ ",,,,,,,,,,Leads and Reporter only,"27/Apr/26 7:52 PM;s.rashid;bug11.png;https://jira.a1qa.com/secure/attachment/2778567/bug11.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|iftz14:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Contact: Last name field allows maximum length of 8 characters (as per inspect element),QATC-988984,3988966,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 7:34 PM,27/Apr/26 7:34 PM,05/May/26 10:56 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Contact"" Page
+ # Open the Inspect option using f12
+ # Observe the maxlength of last name.
+
+Actual Result: Last name field allows maximum length of 8 characters (as per inspect element). Please see [^bug10.png]
+
+Expected Result: Last name field should allow maximum length of 48 characters as per requirement.
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 7:34 PM;s.rashid;bug10.png;https://jira.a1qa.com/secure/attachment/2778561/bug10.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftyyw:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Clients: 28 clients images are displayed instead of 30 clients images,QATC-988956,3988874,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 5:22 PM,27/Apr/26 5:22 PM,05/May/26 10:52 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Clients"" Page
+ # Observe the number of clients images.
+
+Actual Result: 28 clients are displayed insted of 30 clients. Please see [^bug9.png],[^bug9.mp4]
+
+Expected Result: 30 clients image should be displayed as per the requirement.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 5:20 PM;s.rashid;bug9.mp4;https://jira.a1qa.com/secure/attachment/2778501/bug9.mp4","27/Apr/26 5:20 PM;s.rashid;bug9.png;https://jira.a1qa.com/secure/attachment/2778500/bug9.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftyeo:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+"Clients: Some images are not clickable, while others redirect to links",QATC-988954,3988869,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 5:08 PM,29/Apr/26 5:28 AM,05/May/26 10:45 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Connect"" Page
+ # Click the images of the page
+ # Observe the changes
+
+Actual Result: Some images are not clickable, while others redirect to links.Please see [^bug8.mp4]
+
+Expected Result: All images should be clickable and redirect to their respective links","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 5:07 PM;s.rashid;bug8.mp4;https://jira.a1qa.com/secure/attachment/2778495/bug8.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftydk:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,"29/Apr/26 5:28 AM;s.rashid;Clients: Some images are not clickable, while others redirect to links
+ Type: Bug
+Affects Version/s:1.0
+Component/s:GregOlsen.PhotoStudio
+Environment:
+OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )
+
+Severity/Importance:2-Major
+Error Type: Functional
+Description
+Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on the ""Connect"" menu
+ # Click the ""Clients"" Page
+ # Click the images on the page
+ # Observe the changes
+Actual Result: Some images are not clickable, while others redirect to links. Please see bug8.mp4
+
+Expected Result: All images should be clickable and redirect to their respective links;;;"
+"Clients: Page title is displayed as “Clients” instead of “Clients Gallery""",QATC-988953,3988853,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 4:53 PM,27/Apr/26 4:53 PM,05/May/26 10:43 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Clients"" Page
+ # Observe the title of the page
+
+Actual Result:  Page title is displayed as “Clients” instead of “Clients Gallery"". Please see [^bug7.png]
+
+Expected Result: Page title should be “Clients Gallery""
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 4:53 PM;s.rashid;bug7.png;https://jira.a1qa.com/secure/attachment/2778489/bug7.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|iftyao:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Bio & Press: Press section does not display Fast company & huffington post,QATC-988951,3988844,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Duplicate,,s.rashid,s.rashid,27/Apr/26 4:46 PM,04/May/26 7:47 AM,05/May/26 10:43 PM,04/May/26 7:47 AM,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Bio & Press"" Page
+ # Observe for the press section
+
+Actual Result: Press section does not display Fast company & huffington post.Please see [^bug6.png]
+
+Expected Result: Press section should display Fast company & huffington post.","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 4:45 PM;s.rashid;bug6.png;https://jira.a1qa.com/secure/attachment/2778487/bug6.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|ifty8o:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Bio & Press: Client's Info is not displayed in the bio section,QATC-988949,3988837,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Duplicate,,s.rashid,s.rashid,27/Apr/26 4:33 PM,04/May/26 7:47 AM,05/May/26 10:42 PM,04/May/26 7:47 AM,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Bio & Press"" Page
+ # Observe for the Client's Info 
+
+Actual Result: Client's Info is not displayed in Bio section.Please see [^bug5.png]
+
+Expected Result:  Client's Info should be displayed in Bio section","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 4:33 PM;s.rashid;bug5.png;https://jira.a1qa.com/secure/attachment/2778483/bug5.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifty74:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Bio & Press: Greg's history is missing in bio section,QATC-988948,3988833,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 4:27 PM,27/Apr/26 4:27 PM,05/May/26 10:36 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Bio & Press"" Page
+ # Observe for the history of Greg.
+
+Actual Result: Greg’s history is not displayed in Bio section.Please see [^bug4.png]
+
+Expected Result: Greg’s history should be displayed in Bio section
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 4:26 PM;s.rashid;bug4 (2).png;https://jira.a1qa.com/secure/attachment/2778481/bug4+%282%29.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifty68:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Bio & Press: Greg’s photo is not displayed in Bio section,QATC-988946,3988829,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Duplicate,,s.rashid,s.rashid,27/Apr/26 4:22 PM,04/May/26 7:48 AM,05/May/26 10:36 PM,04/May/26 7:48 AM,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover on ""Connect"" menu
+ # Click the ""Bio & Press"" Page
+ # Observe for the picture of Greg.
+
+Actual Result: Greg’s photo is not displayed in Bio section.Please see [^bug3.png]
+
+Expected Result: Greg’s photo should be displayed in Bio section","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 4:19 PM;s.rashid;bug3.png;https://jira.a1qa.com/secure/attachment/2778479/bug3.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifty5c:",9223372036854775807,,,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Lifestyle: A Broken Image icon on the page is shown,QATC-988941,3988811,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 3:58 PM,27/Apr/26 3:58 PM,05/May/26 8:54 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Open the ""Work"" Menu
+ # Click the ""Lifestyle"" Pge buttton
+ # Observe the images
+
+Actual Result: A Broken Image icon on the page is shown. Please see [^Bug2.mp4],[^bug2.png]
+
+Expected Result: Image should not be broken. It should load and display.
+
+ ","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 3:53 PM;s.rashid;Bug2.mp4;https://jira.a1qa.com/secure/attachment/2778466/Bug2.mp4","27/Apr/26 3:53 PM;s.rashid;bug2.png;https://jira.a1qa.com/secure/attachment/2778465/bug2.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|ifty1s:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,
+Work: Motion Page does not open on click,QATC-988937,3988799,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,s.rashid,s.rashid,27/Apr/26 3:20 PM,27/Apr/26 3:20 PM,05/May/26 8:39 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"Steps:
+ # Go to [https://photostudio.demohoster.com/]
+ # Hover over the ""Work"" dropdown menu
+ # Click on motion page
+
+Actual Result: Motion Page does not open on click. Please see [^Bug1.mp4]
+
+Expected Result: Motion Page should open on click","OS: Windows 11 (64-bit)
+Browser: Google Chrome (Version 147.0.7727.56 )",,,,,,,,,,Leads and Reporter only,"27/Apr/26 3:14 PM;s.rashid;Bug1.mp4;https://jira.a1qa.com/secure/attachment/2778455/Bug1.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|iftxzk:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,
